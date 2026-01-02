@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: 'Quicksand', sans-serif;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+header.navbar-container {
+  max-width: 1200px;
+  width: 100%;
+  margin-inline: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-block: 1rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  background-color: white;
+}
+
+header.navbar-container .nav-list ul {
+  padding-left: 0;
+  display: flex;
+  justify-content: center;
+  gap: 2rem 1rem;
+}
+
+header.navbar-container .nav-list li {
+  list-style: none;
+}
+
+header.navbar-container .nav-list ul li a {
+  text-decoration: none;
+  font-size: 1.50rem;
+  font-weight: 500;
+  color: black;
+  padding: 0.5rem 1rem;
+  border-radius: 999px;
+  transition: all 0.3s ease-in-out;
+}
+
+header.navbar-container .nav-list ul li a:hover {
+  background-color: #425c77;
+  color: white;
+}
+
+main {
+  max-width: 1200px;
+  width: 100%;
+  margin-inline: auto;
+  padding: 2rem 4rem;
+  flex: 1;
+  display: block;
+  align-items: center;
+}
+
+main .content {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+
+main .content .content-description {
+  flex: 1 1;
+}
+
+main .content .content-description title {
+  font-size: 3.5rem;
+  margin-block: 1rem;
+}
+
+main .content .content-description p {
+  line-height: 1.7rem;
+  font-size: 1.2rem;
+}
+
+main .content .content-description button {
+  padding: 0.8rem 2.5rem;
+  margin-block-start: 1rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  font: 1rem;
+  font-family: 'Quicksand', sans-serif;
+  color: white;
+  border-radius: 999px;
+  background-color: #2d3e50;
+  cursor: pointer;
+  transition: all 0.15s ease-in;
+}
+
+.btn-kolaborasi {
+  display: inline-block;
+  padding: 12px 30px;
+  background-color: #2d3e50;   
+  color: white;               
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 600;
+  margin-top: 20px;
+  border: 3px solid #2d3e50;  
+  transition: all 0.3s ease;
+}
+
+.btn-kolaborasi:hover {
+  background-color: transparent;
+  color: #2d3e50;
+}
+
+
+main .content .content-image {
+  flex: 1;
+  display: flex;
+}
+
+main .content .content-image img {
+  margin: auto;
+  min-width: 250px;
+  width: 350px;
+}
+
+.about-img {
+	width: 350px;
+	min-width: 250px;
+	height: auto;
+	border-radius: 10px;
+}
+
+.content {
+	display: flex;
+	align-items: center;
+	gap: 40px;
+	max-width: 1100px;
+	margin: 0 auto;
+	padding: 50px 20px;
+}
+
+.about-title {
+	display: flex;
+	flex-direction: column;
+	width: 100%
+}
+
+.about-title h2 {
+	font-size: 2rem;
+	margin: 0;
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+.about-container {
+	padding-top: 20px;
+	display: flex;
+	gap: 1rem;
+	justify-content: center;
+}
+
+.about-box {
+	border: 1px solid #2d3e50;
+	padding: 15px;
+	border-radius: 10%;
+}
+
+.about-paragraf p {
+	margin-bottom: 34px;
+	font-size: 18px;
+}
+
+.contact-detail {
+  width: 25%;
+  height: 100%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  margin-top: 15px;
+  position: relative;
+  gap: 70px;
+  max-width: 1200px; 
+}
+
+.contact-detail .details{
+  margin: 14px;
+  text-align: center;
+}
+
+.contact-detail .details .topic {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.contact-detail .details .text-one,
+.contact-detail .details .text-two {
+  font-size: 14px;
+  color: #afafb6;
+}
+
+.contact-form h2 {
+  margin-bottom: 60px;
+}
+
+.contact-form form {
+  display: grid;
+  gap: 1rem;
+}
+
+.contact-form label {
+  font-weight: 500;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 15px;
+}
+
+.contact-form button {
+  background-color: #2d3e50;   
+  color: white;               
+  padding: 14px;
+  border: none;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: transparent;
+  color: #2d3e50;
+}
+
+
+
+
